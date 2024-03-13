@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="a">
+        <h1 class="JB">Tourist Trail</h1>
+        <form id="searchForm" onsubmit="return handleSearch()">
+            <p>
+                <input type="text" name="recherche" placeholder="Tapez ici pour rechercher" autofocus class="defini" id="searchInput">
+                <input type="submit" value="Rechercher" class="tion">
+            </p>
+        </form>
+        <script>
+            function handleSearch() {
+         var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+ 
+        
+         switch (searchTerm) {
+             case 'paris':
+                 window.location.href = 'paris.html';
+                 break;
+             case 'istanbul':
+                 window.location.href = 'istanbul.html';
+                 break;
+                 case 'florence':
+                 window.location.href = 'florence.html';
+                 break;
+            
+             case 'nouvelle-orléans':
+                 window.location.href = 'nouvelleorléans.html';
+                 break;
+             case 'lima':
+                 window.location.href = 'lima.html';
+                 break;
+             case 'oxford':
+                 window.location.href = 'oxford.html';
+                 break; 
+             default:
+                 alert('Page not found for search term: ' + searchTerm);
+                 break;
+         }
+ 
+         return false; 
+     }
+ 
+         </script>
+    </div>
+    <div class="b">
+        <ul class="menu">
+            <li class="maeva"><a href="index.html">Accueil</a></li>
+            <li class="maeva"><a href="services.html">Services</a></li>
+            <li class="maeva"><a href="produits.html">Destinations</a></li>  
+        </ul>
+    </div> 
+    <div class="d">
+        <h1 class="xender">Nos Destinations</h1>
+        <p class="soplay">
+            <em>Découvrez notre sélection de destinations inspirées par les villes du monde entier, pour emporter un morceau de chaque destination avec vous où que vous alliez!
+            </em><br>
+        </p>
+        <a href="paris.html" class="HTML" >
+            <div class="money">
+                
+                <h2 class="P1">Paris</h2>
+            </div>
+            </a>
+            <a href="istanbul.html" class="HTML" >
+            <div class="argent">
+                 <h2 class="P1">Istanbul</h2>
+             </div>
+            </a>
+            <a href="florence.html" class="HTML" >
+             <div class="galerie" >
+               <h2 class="P1">Florence</h2>
+            </div>
+            </a>
+            <a href="nouvelleorléans.html" class="HTML" >
+            <div class="bible" >
+                <h2 class="P1">Nouvelle-Orléans</h2>
+            </div>
+            </a>
+            <a href="lima.html" class="HTML" >
+            <div class="whats" >
+                 <h2 class="P1">Lima</h2>
+            </div>
+            </a>
+            <a href="oxford.html" class="HTML" >
+            <div class="app" >
+                <h2 class="P1">Oxford</h2>
+            </div>
+            </a>
+    </div>
+        
+    </div> 
+    <div class="pro">
+        <ul class="blem">
+            <li class="HTML">Contacts<br> +221704584987</li>
+            <li><a href="apropos.html" class="HTML" >A propos</a></li>
+            <li class="HTML">Help</li>
+            <li class="HTML">Réseaux sociaux</li>
+            <li><a href="commentaires.html" class="HTML" >Commentaires</a></li>
+            <li><a href="index.html"  class="HTML">Home</a></li>
+        </ul>
+    </div>
+</body>
+</html>

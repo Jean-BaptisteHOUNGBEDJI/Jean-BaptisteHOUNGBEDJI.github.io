@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="a">
+        <h1 class="JB">Tourist Trail</h1>
+        <form id="searchForm" onsubmit="return handleSearch()">
+            <p>
+                <input type="text" name="recherche" placeholder="Tapez ici pour rechercher" autofocus class="defini" id="searchInput">
+                <input type="submit" value="Rechercher" class="tion">
+            </p>
+        </form>
+        <script>
+            function handleSearch() {
+         var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+ 
+        
+         switch (searchTerm) {
+             case 'paris':
+                 window.location.href = 'paris.html';
+                 break;
+             case 'istanbul':
+                 window.location.href = 'istanbul.html';
+                 break;
+                 case 'florence':
+                 window.location.href = 'florence.html';
+                 break;
+             case 'nouvelle-orléans':
+                 window.location.href = 'nouvelleorléans.html';
+                 break;
+             case 'lima':
+                 window.location.href = 'lima.html';
+                 break;
+             case 'oxford':
+                 window.location.href = 'oxford.html';
+                 break; 
+             default:
+                 alert('Page not found for search term: ' + searchTerm);
+                 break;
+         }
+ 
+         return false; 
+     }
+ 
+         </script>
+    </div>
+    <div class="b">
+        <ul class="menu">
+            <li class="maeva"><a href="index.html">Accueil</a></li>
+            <li class="maeva"><a href="services.html">Services</a></li>
+            <li class="maeva"><a href="produits.html">Destinations</a></li>
+        </ul> 
+    </div>
+    <div id="soeur">
+        <h1 class="maman"><em>Lima, Le Carrefour Culinaire!</em></h1>
+        <h2 class="raisin" ><em>Histoire</em></h2>
+        <p>
+            Il était une fois, au bord du Pacifique, une ville dynamique et cosmopolite appelée Lima. Son histoire remonte à près de cinq siècles, lorsque les conquistadors espagnols, menés par Francisco Pizarro, ont fondé la ville en 1535. Ils l'ont nommée "La Ciudad de los Reyes", la Ville des Rois, en l'honneur des Rois Mages. <br>
+            Au fil des siècles, Lima est devenue un melting-pot culturel, où les traditions indigènes, espagnoles, africaines et asiatiques se sont entremêlées pour créer une identité unique. La ville a prospéré en tant que centre commercial important, reliant l'empire espagnol aux autres parties du monde. <br>
+            Aujourd'hui, Lima est une métropole dynamique en pleine expansion, avec une population diversifiée et une scène culturelle animée. Ses quartiers historiques, tels que le centre-ville et le quartier de Barranco, regorgent de musées, de galeries d'art, de restaurants de classe mondiale et de boutiques branchées, offrant aux visiteurs un aperçu captivant de son passé riche et de son avenir prometteur. <br>
+        </p>
+        <video src="lima vidéo.mp4" autoplay controls poster="limafesti.jpg" class="video-container3"></video>
+    </div>
+    <div>
+        <h1 class="raisin"  ><em>Fêtes locales</em></h1>
+    </div>
+    <div class="baki">
+        <img src="rosaire.jpg" alt="La Fête du Rosaire de Lima" class="titan" >
+        <div class="hanma">
+            <h2 class="maman" ><em>La Fête du Saint Rosaire de Lima</em></h2>
+            <p>
+                Cette fête, qui se déroule le 30 août, célèbre la vie et les miracles de Santa Rosa de Lima, la sainte patronne du Pérou. Les célébrations comprennent des processions, des messes spéciales, des danses folkloriques et des feux d'artifice dans tout Lima. <br>
+            </p>
+        </div>
+    </div>
+    <div class="baki" >
+        <div class="hanma">
+            <h2 class="maman"  ><em>La Fête de l'Indépendance</em></h2>
+            <p class="aline">
+                Le 28 et 29 juillet, Lima célèbre la fête nationale du Pérou avec des événements spéciaux, des défilés militaires, des concerts en plein air, des feux d'artifice et des festivals gastronomiques mettant en valeur la cuisine péruvienne traditionnelle. <br>
+            </p>
+        </div>
+        <img src="limaindependance.jpg" alt="La Fête de l'Indépendance de Lima" class="titan">
+    </div>
+    <div class="baki" >
+        <img src="limafesti.jpg" alt="Le Carnaval de Lima" class="titan">
+        <div class="hanma">
+            <h2 class="maman"  ><em>Le Carnaval de Lima</em></h2>
+            <p>
+                Le Carnaval de Lima est une célébration colorée et joyeuse qui a lieu chaque année en février ou en mars, marquant le début du carême. Les festivités comprennent des défilés de danseurs costumés, des démonstrations de musique traditionnelle, des compétitions de danse et des dégustations de plats typiques de carnaval. <br>
+            </p>
+        </div>
+    </div>
+    <div>
+        <h1 class="raisin" ><em>Perles de découverte</em></h1>
+    </div>
+    <div class="baki">
+        <div class="hanma">
+            
+            <h2 class="maman" ><em>Le Parc Kennedy (Parque Kennedy)</em></h2>
+            <p class="aline">
+                Promenez-vous le long de la magnifique Côte des Miracles, une promenade côtière spectaculaire offrant des vues panoramiques sur l'océan Pacifique. Vous pourrez vous détendre sur les plages de sable, faire du vélo, du surf ou simplement admirer le coucher de soleil. <br>
+            </p>
+        </div>
+        <img src="parque kennedy.jpeg" alt="Le Parc de Kennedy" class="titan">
+    </div>
+    <div class="baki">
+        <img src="museumlarco.jpg" alt="Le Musée de Larco" class="titan">
+        <div class="hanma">
+            <h2 class="maman" ><em>Le Musée Larco (Museo Larco)</em></h2>
+            <p>
+                Découvrez l'une des plus grandes collections d'art précolombien du Pérou au Musée Larco. Explorez des milliers d'objets anciens, y compris des poteries, des bijoux, des textiles et des artefacts incas, dans un cadre magnifique entouré de jardins luxuriants. <br>
+            </p>
+        </div>
+    </div>
+    <div class="baki" >
+        <div class="hanma" >
+            <h2 class="maman" ><em>Le Centre Historique de Lima (Centro Histórico)</em></h2>
+            <p class="aline">
+                Explorez le cœur historique de Lima, classé au patrimoine mondial de l'UNESCO. Découvrez des sites emblématiques tels que la Plaza Mayor, la Cathédrale de Lima, le Palais du Gouvernement (Palacio de Gobierno) et le Monastère de San Francisco, avec ses catacombes fascinantes. <br>
+            </p>
+        </div>
+        <img src="centrehistoric.jpg" alt="Le Centre Historique de Lima" class="titan" >
+    </div>
+    <div>
+        <h1 class="raisin" ><em>Cuisines</em></h1>
+    </div>
+    <div class="baki" >
+        <img src="ceviche.jpg" alt="Le Ceviche" class="titan" >
+        <div class="hanma" >
+            <h2 class="maman" ><em>Le Ceviche</em></h2>
+            <p>
+                Le ceviche est le plat emblématique du Pérou, et Lima offre certaines des meilleures versions de ce plat délicieux. Il s'agit de poisson cru mariné dans du jus de citron vert avec des oignons rouges, du piment, de la coriandre et parfois du maïs et de la patate douce. <br>
+            </p>
+        </div>
+    </div>
+    <div class="baki">
+         <div class="hanma" >
+            <h2 class="maman" ><em>Lomo Saltado</em></h2>
+            <p class="aline">
+                Ce plat est un mélange délicieux de viande de bœuf sautée avec des oignons, des tomates, du poivron et des épices, servi sur un lit de frites croustillantes. C'est un plat réconfortant et savoureux, souvent accompagné de riz. <br>
+            </p>
+        </div>
+        <img src="lomo.jpg" alt="Lomo Saltado" class="titan" >
+    </div>
+    <div class="baki">
+        <img src="picarones.jpeg" alt="Picarones" class="titan">
+        <div class="hanma" >
+            <h2 class="maman" ><em>Picarones</em></h2>
+            <p>
+                Pour le dessert, essayez les picarones, des beignets péruviens à base de pâte de courge et de patate douce, frits et servis avec un sirop sucré à base de chancaca (mélasse de canne à sucre), de cannelle et d'anis. C'est une douceur délicieuse et réconfortante, parfaite pour terminer un repas péruvien. <br>
+            </p>
+        </div>
+    </div>
+    <div class="pro">
+        <ul class="blem">
+            <li class="HTML">Contacts<br> +221704584987</li>
+            <li><a href="apropos.html" class="HTML" >A propos</a></li>
+            <li class="HTML">Help</li>
+            <li class="HTML">Réseaux sociaux</li>
+            <li><a href="commentaires.html" class="HTML" >Commentaires</a></li>
+            <li><a href="index.html" class="HTML" >Home</a></li>
+    </div>
+</body>
+</html>

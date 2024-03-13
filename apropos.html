@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="a">
+        <h1 class="JB">Tourist Trail</h1>
+        <form id="searchForm" onsubmit="return handleSearch()">
+            <p>
+                <input type="text" name="recherche" placeholder="Tapez ici pour rechercher" autofocus class="defini" id="searchInput">
+                <input type="submit" value="Rechercher" class="tion">
+            </p>
+        </form>
+        <script>
+            function handleSearch() {
+         var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+ 
+        
+         switch (searchTerm) {
+             case 'paris':
+                 window.location.href = 'paris.html';
+                 break;
+             case 'istanbul':
+                 window.location.href = 'istanbul.html';
+                 break;
+                 case 'florence':
+                 window.location.href = 'florence.html';
+                 break;
+             case 'nouvelle-orléans':
+                 window.location.href = 'nouvelleorléans.html';
+                 break;
+             case 'lima':
+                 window.location.href = 'lima.html';
+                 break;
+             case 'oxford':
+                 window.location.href = 'oxford.html';
+                 break; 
+             default:
+                 alert('Page not found for search term: ' + searchTerm);
+                 break;
+         }
+ 
+         return false; 
+     }
+ 
+         </script>
+    </div>
+    <div class="b">
+        <ul class="menu">
+            <li class="maeva"><a href="index.html" >Accueil</a></li>
+            <li class="maeva"><a href="services.html">Services</a></li>
+            <li class="maeva"><a href="produits.html">Destinations</a></li>
+        </ul>
+    </div>
+    <div class="paper">
+        <h1 class="feuille"><em>A propos de <strong>Tourist Trail !</strong></em></h1>
+        <div id="papa">
+            <p class="houefa">
+                <em>Bienvenue sur <strong>Tourist Trail</strong>, votre compagnon de voyage en ligne ! Notre plateforme a été créée avec une passion profonde pour l'exploration et la découverte. Notre objectif est de vous inspirer à explorer de nouveaux horizons, à vivre des aventures inoubliables et à créer des souvenirs durables.
+                </em>
+            </p>
+            <p class="jessica">
+                <em>Fondé en 2023, <strong>Tourist Trail</strong> est né de la vision de rendre le voyage plus accessible, plus excitant et plus enrichissant pour chacun. Que vous soyez un globe-trotter chevronné à la recherche de destinations exotiques ou un voyageur occasionnel en quête d'évasions tranquilles, notre site offre une multitude de ressources pour répondre à vos besoins et à vos envies.
+                </em> 
+            </p>
+            <p class="jessica">
+                <em>Nous sommes fiers de vous offrir une gamme diversifiée de contenus, y compris des guides de voyage détaillés, des conseils pratiques, des recommandations d'hébergement et bien plus encore. Notre équipe de passionnés de voyage travaille sans relâche pour vous fournir des informations précieuses et des conseils avisés afin de rendre chaque étape de votre voyage aussi agréable que possible.
+                </em> 
+            </p>
+            <p class="jessica">
+                <em>Que vous planifiiez votre prochaine escapade ou que vous recherchiez simplement de l'inspiration, <strong>Tourist Trail</strong> est là pour vous accompagner à chaque étape de votre voyage. Merci de nous faire confiance pour faire de vos rêves de voyage une réalité !
+                </em>
+            </p>
+        </div>
+    </div>
+    <div class="pro">
+        <ul class="blem">
+            <li>Contacts <br> +221704584987</li>
+            <li><a href="apropos.html" class="HTML" >A propos</a></li>
+            <li>Help</li>
+            <li>Réseaux sociaux</li>
+            <li><a href="commentaires.html" class="HTML" >Commentaires</a></li>
+            <li><a href="index.html" class="HTML" >Home</a></li>
+        </ul>
+    </div>
+</body>
+</html>

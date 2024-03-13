@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="a">
+        <h1 class="JB">Tourist Trail</h1>
+        <form id="searchForm" onsubmit="return handleSearch()">
+            <p>
+                <input type="text" name="recherche" placeholder="Tapez ici pour rechercher" autofocus class="defini" id="searchInput">
+                <input type="submit" value="Rechercher" class="tion">
+            </p>
+        </form>
+        <script>
+            function handleSearch() {
+         var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+ 
+        
+         switch (searchTerm) {
+             case 'paris':
+                 window.location.href = 'paris.html';
+                 break;
+             case 'istanbul':
+                 window.location.href = 'istanbul.html';
+                 break;
+             case 'florence':
+                 window.location.href = 'florence.html';
+                 break;
+             case 'nouvelle-orléans':
+                 window.location.href = 'nouvelleorléans.html';
+                 break;
+             case 'lima':
+                 window.location.href = 'lima.html';
+                 break;
+             case 'oxford':
+                 window.location.href = 'oxford.html';
+                 break; 
+             default:
+                 alert('Page not found for search term: ' + searchTerm);
+                 break;
+         }
+ 
+         return false; 
+     }
+ 
+         </script>
+    </div>
+    <div class="b">
+        <ul class="menu">
+            <li class="maeva"><a href="index.html">Accueil</a></li>
+            <li class="maeva"><a href="services.html">Services</a></li>
+            <li class="maeva"><a href="produits.html">Destinations</a></li>
+        </ul> 
+    </div>
+    <div id="soeur">
+        <h1 class="maman"><em>Florence, le Berceau de la Renaissance!</em></h1>
+        <h2 class="raisin "><em>Histoire</em></h2>
+        <p>
+            Il était une fois, au cœur de la Toscane, une ville où l'art, la culture et l'histoire s'entrelacent comme les fils d'une toile de maître. Florence, berceau de la Renaissance, était le foyer de grands esprits tels que Michel-Ange, Léonard de Vinci et Botticelli. <br>
+            Les rues de Florence étaient le théâtre d'une effervescence créative, avec des chefs-d'œuvre architecturaux comme le Duomo, le Palazzo Vecchio et la Basilique Santa Croce qui émergeaient de la toile urbaine. Les églises et les palais étaient ornés de fresques magnifiques, tandis que les places publiques vibraient de l'énergie des artistes et des artisans. <br>
+            Malgré les défis et les conflits, Florence demeure un symbole de la grandeur de l'esprit humain. Sa beauté intemporelle et son héritage culturel continuent d'inspirer et d'émerveiller les visiteurs du monde entier, rappelant à tous que dans cette ville magique, les rêves et les réalisations des hommes peuvent atteindre des sommets insoupçonnés. <br>
+        </p>
+        <video src="florence vidéo.mp4" autoplay controls poster="florencerepublic.jpg" class="video-container2"></video>
+    </div>
+    <div>
+        <h1 class="raisin"><em>Fêtes locales</em></h1>
+    </div>
+    <div class="baki">
+        <img src="giovanni.jpg" alt="Saint Giovanni" class="titan" >
+        <div class="hanma">
+            <h2 class="maman"><em>La Fête de San Giovanni</em></h2>
+            <p>
+                Le 24 juin, Florence célèbre la Saint-Jean-Baptiste, le saint patron de la ville, lors de cette fête religieuse et populaire. Les festivités comprennent des processions, des célébrations religieuses, des feux d'artifice et des événements culturels dans toute la ville. <br>
+            </p>
+        </div>
+    </div>
+    <div class="baki" >
+        <div class="hanma">
+            <h2 class="maman"><em>La Fête de la République Florentine</em></h2>
+            <p class="aline">
+                Le 30 mai, Florence commémore la fondation de la République florentine en 1252 lors de cette journée spéciale. Des événements culturels, des défilés historiques et des spectacles sont organisés dans toute la ville pour célébrer cet événement historique. <br>
+            </p>
+        </div>
+        <img src="florencerepublic.jpg" alt="Fête Républicaine" class="titan">
+    </div>
+    <div class="baki" >
+        <img src="befanaflorence.jpg" alt="Fête de la Befana" class="titan">
+        <div class="hanma">
+            <h2 class="maman"><em>La Fête de la Befana </em></h2>
+            <p>
+                Le 6 janvier, Florence célèbre l'Épiphanie avec la Fête de la Befana, une tradition italienne où une vieille sorcière apporte des cadeaux aux enfants sages et du charbon aux enfants méchants. Des défilés colorés et des festivités familiales ont lieu dans toute la ville. <br>
+            </p>
+        </div>
+    </div>
+    <div>
+        <h1 class="raisin"><em>Perles de découverte</em></h1>
+    </div>
+    <div class="baki">
+        <div class="hanma">
+            
+            <h2 class="maman"><em>Le Ponte Vecchio</em></h2>
+            <p class="aline">
+                Traversez les siècles en franchissant ce pont légendaire, témoin de l'histoire et du charme de Florence. Les étals des artisans scintillent de bijoux et d'œuvres d'art, tandis que le fleuve Arno murmure en contrebas. Une promenade sur le Ponte Vecchio est un voyage à travers le temps et les traditions. <br>
+            </p>
+        </div>
+        <img src="ponteveccio.jpg" alt="Le Ponte Vecchio" class="titan">
+    </div>
+    <div class="baki">
+        <img src="statutflorence.jpg" alt="La Piazza della Signoria" class="titan">
+        <div class="hanma">
+            <h2 class="maman"><em>La Piazza della Signoria</em></h2>
+            <p>
+                Plongez dans le cœur battant de Florence sur cette place emblématique où l'histoire, l'art et la politique se rencontrent. Sous le regard bienveillant de la statue équestre de Cosme Ier, explorez les trésors de la Loggia dei Lanzi et laissez-vous inspirer par la grandeur du Palazzo Vecchio. <br>
+            </p>
+        </div>
+    </div>
+    <div class="baki" >
+        <div class="hanma" >
+            <h2 class="maman"><em>La Galerie de l'Académie</em></h2>
+            <p class="aline">
+                Marchez dans les pas des grands maîtres de la Renaissance à travers les couloirs de la Galerie de l'Académie. Admirez la puissance et la grâce du David de Michel-Ange, une sculpture emblématique qui incarne la perfection artistique et l'expression humaine dans toute sa splendeur.<br>
+            </p>
+        </div>
+        <img src="galerie florence.jpg" alt="La Galerie de l'Académie" class="titan" >
+    </div>
+    <div>
+        <h1 class="raisin"><em>Cuisines</em></h1>
+    </div>
+    <div class="baki" >
+        <img src="steakflorence.jpeg" alt="" class="titan" >
+        <div class="hanma" >
+            <h2 class="maman"><em>Bistecca alla Fiorentina</em></h2>
+            <p>
+            Ce célèbre steak florentin est un incontournable pour les amateurs de viande. Il s'agit d'un gros steak de bœuf, généralement de race Chianina, grillé à la perfection et assaisonné simplement avec du sel, du poivre et parfois un filet d'huile d'olive. Il est servi saignant et accompagné de légumes de saison. <br>
+            </p>
+        </div>
+    </div>
+    <div class="baki">
+         <div class="hanma" >
+            <h2 class="maman"><em>Pappa al pomodoro</em></h2>
+            <p class="aline">
+            Cette soupe traditionnelle toscane est une délicieuse façon d'utiliser les restes de pain rassis. Elle est préparée avec des tomates mûres, de l'ail, de l'huile d'olive et du basilic frais, puis épaissie avec du pain rassis. C'est un plat simple mais savoureux, idéal pour les chaudes journées d'été. <br>
+            </p>
+        </div>
+        <img src="R (1).jpeg" alt="" class="titan" >
+    </div>
+    <div class="baki">
+        <img src="gelato.jpg" alt="" class="titan">
+        <div class="hanma" >
+            <h2 class="maman"><em>Gelato</em></h2>
+            <p>
+            Terminez votre repas avec une boule de gelato artisanal, une spécialité italienne incontournable. Choisissez parmi une grande variété de saveurs, des classiques comme la stracciatella et le pistache aux créations plus audacieuses comme le figue et le gorgonzola. C'est le moyen parfait de se rafraîchir lors des chaudes journées d'été à Florence. <br>
+            </p>
+        </div>
+    </div>
+    <div class="pro">
+        <ul class="blem">
+            <li class="HTML">Contacts <br> +221704584987</li>
+            <li><a href="apropos.html" class="HTML" >A propos</a></li>
+            <li class="HTML">Help</li>
+            <li class="HTML">Réseaux sociaux</li>
+            <li><a href="commentaires.html"  class="HTML">Commentaires</a></li>
+             <li><a href="index.html" class="HTML" >Home</a></li>
+
+    </div>
+</body>
+</html>
